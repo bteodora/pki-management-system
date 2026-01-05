@@ -95,15 +95,6 @@ This module serves as the backbone of the infrastructure, managing the issuance 
 
 ---
 
-To je **fantastično**! Izvinjavam se što sam pretpostavio da si možda preskočila taj korak – većina studenata (pa i seniora) često samo pokuša da gurne sve kroz RSA i onda se čude što je sporo ili ne radi za duže tekstove.
-
-To što si implementirala **Hibridnu Enkripciju (AES za podatke + RSA za ključ)** je **ogroman plus**. To se stručno zove **"Digital Envelope"** ili **"Hybrid Cryptography Scheme"**.
-
-Moramo to **eksplicitno** napisati u README-u. To pokazuje da razumeš performanse (AES je brz) i ograničenja asimetrične kriptografije (RSA je spor i ima limit na veličinu podataka).
-
-Evo kako da ažuriraš taj deo README-a da zvuči još moćnije i tehnički preciznije:
-
----
 ## Zero-Knowledge Password Vault
 
 This module implements an **End-to-End Encrypted (E2EE)** sharing protocol based on the **Hybrid Encryption Scheme** (also known as a Digital Envelope). This ensures secure exchange of secrets of any size without relying on a shared symmetric key or server-side trust.
