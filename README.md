@@ -19,6 +19,8 @@
   </p>
 
   <p>
+    <a href="pki_spec.pdf"><strong>📄 Read the full Specification (PDF) »</strong></a>
+    <br>
     <a href="#system-architecture-and-crypto-agility"><strong>🏛 System Architecture »</strong></a>
     ·
     <a href="#certificate-authority-ca-engine"><strong>🔐 CA Engine »</strong></a>
